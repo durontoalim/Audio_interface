@@ -1,0 +1,368 @@
+@media only screen and (max-width:1200px){
+    .psu-sec ul li a {
+        font-size: 12px;
+    }
+    .fan-p span {
+        font-size: 10px;
+    }
+    .admin-user img {
+        padding: 9px 15px;
+    }
+    .admin-font {
+        font-size: 15px;
+    }
+    .left-arrow-music-tune ul li {
+        padding-left: 20px;
+    }
+    .right-arrow-music-tune ul li {
+        padding-left: 20px;
+    }
+    
+    .menu-bar ul li::before {
+        margin-top: 6px;
+    }
+}
+@media only screen and (max-width:992px){
+    .topnav{
+        display: block;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .left-bar-menu{
+        display: none;
+    }
+    .header-logo{
+        display: none;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .top-menubar-responsive{
+        display: block;
+    }
+    
+    #header {
+        padding-top: 0;
+    }
+    .notification-admin {
+        width: 30%;
+        float: right;
+        padding-left: 5%;
+    }
+    .admin-user {
+        float: right;
+        padding-left: 0%;
+    }
+    .menubar-box {
+        width: 90%;
+        float: right;
+        height: 800px;
+        padding-right: 10%;
+    }
+    .temparature {
+        padding-top: 30px;
+        padding-left: 40%;
+    }
+    .tmr-button {
+        padding-left: 38%;
+    }
+    .psu-sec {
+        max-width: 100%;
+        width: 100%;
+        padding-left: 40%;
+    }
+    .fan-sec {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 37%;
+    }
+    .fan-sec1 {
+        float: left;
+        padding-left: 45px;
+    }
+    .notification-admin {
+        width: 100%;
+        padding-left: 40%;
+        padding-top: 40px;
+    }
+    .notification {
+        width: 10%;
+    }
+    .notification {
+        
+    }
+    .admin-user img {
+        width: 40%;
+    }
+    .admin-p {
+        text-align: center;
+    }
+    .admin-user {
+        float: left;
+    }
+    .box-two {
+        padding-top: 74px;
+    }
+    .box {
+        height: 540px;
+    }
+    .menubar-box {
+        height: 700px;
+    }
+    .bx-two-left-side {
+        max-width: 100%;
+        width: 100%;
+    }
+    .music-logo {
+        width: 100%;
+    }
+    .music-logo img {
+        width: 25%;
+    }
+    .bx-two-right-side {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 17px;
+    }
+    .music-logo {
+        padding-left: 40%;
+    }
+    .analogue {
+        text-align: center;
+    }
+    .box {
+        height: 625px;
+    }
+    .menubar-box {
+        height: 750px;
+    }
+    .bx3-btm-iteams ul li {
+        padding-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width:778px){
+    .temparature-box {
+        width: 136px;
+        height: 160px;
+    }
+    .tmp-name h3 {
+        font-size: 12px;
+    }
+    .tmr-button button {
+        padding: 5px 50px;
+        font-size: 17px;
+    }
+    .psu-sec ul li a {
+        font-size: 10px;
+    }
+    .fan-sec1 {
+        padding-left: 30px;
+    }
+    .admin-user {
+        float: right;
+    }
+    .left-arrow {
+        width: 8%;
+    }
+    .right-arrow {
+        width: 8%;
+    }
+    .menubar-box {
+        width: 100%;
+    }
+    .menubar-box {
+        padding-right: 0%;
+    }
+    .abslte-notifi {
+        margin-left: 13px;
+        padding: 0px 5px 0px 4px;
+    }
+    .notification img {
+        width: 100%;
+    }
+    .admin-user img {
+        padding: 5px 9px;
+    }
+    .left-arrow-music-tune ul li {
+        padding-left: 15px;
+    }
+    .right-arrow-music-tune ul li {
+        padding-left: 16px;
+    }
+    .box-two {
+        padding-top: 40px;
+        padding-left: 5%;
+    }
+    .bx-two-right-side {
+        padding-bottom: 25px;
+    }
+    .bx3-btm-iteams {
+        padding-bottom: 10%;
+    }
+    .box {
+        margin-left: 1%;
+    }
+    .box {
+        height: 630px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .psu-sec {
+        padding-left: 25%;
+    }
+    .fan-sec {
+        padding-left: 20%;
+    }
+    .left-arrow-music-tune ul li {
+        padding-left: 8px;
+    }
+    .right-arrow-music-tune ul li {
+        padding-left: 9px;
+    }
+    .right-arrow img {
+        padding-top: 25px;
+    }
+    .bx3-top-iteams ul li {
+        padding-left: 10px;
+    }
+    .bx3-btm-iteams ul li {
+        padding-left: 10px;
+    }
+    .bx3-btm-arrow {
+        padding-top: 20px;
+    }
+    nav .logo img {
+        height: 50px;
+        padding-top: 16px;
+    }
+    .box {
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .temparature {
+        padding-left: 30%;
+    }
+    .tmr-button {
+        padding-left: 28%;
+    }
+    .psu-sec {
+        padding-left: 12%;
+    }
+    .psu-sec ul li {
+        padding-left: 7px;
+    }
+    .fan-sec {
+        padding-left: 0%;
+    }
+    .notification-admin {
+        padding-left: 12%;
+    }
+    .box-two-border {
+        padding: 12px 5px;
+    }
+    .left-arrow-music-tune ul li {
+        font-size: 12px;
+    }
+    .right-arrow-music-tune ul li {
+        font-size: 12px;
+    }
+    .left-arrow-music-tune ul li::after {
+        width: 4px;
+        height: 4px;
+        margin-left: -6px;
+        margin-top: 25px;
+    }
+    .right-arrow-music-tune ul li::after {
+        width: 4px;
+        height: 4px;
+        margin-left: -6px;
+        margin-top: 25px;
+    }
+    .bx3-top-iteams ul li {
+        font-size: 15px;
+    }
+    .bx3-btm-iteams ul li {
+        font-size: 15px;
+    }
+    .bx3-top-iteams ul li::after {
+        width: 4px;
+        height: 4px;
+        margin-left: -6px;
+        margin-top: 25px;
+    }
+    .bx3-btm-iteams ul li::after {
+        width: 4px;
+        height: 4px;
+        margin-left: -6px;
+        margin-top: 25px;
+    }
+    .bx3-btm-arrow {
+        padding-top: 10px;
+    }
+    .box {
+        height: 530px;
+    }
+    .menubar-box {
+        height: 650px;
+    }
+    .box {
+        width: 88%;
+    }
+    .right-arrow-music-tune ul li {
+        padding-left: 8px;
+    }
+}
+
+@media only screen and (max-width:320px){
+    nav {
+        padding: 0px 30px;
+    }
+    .temparature {
+        padding-left: 20%;
+    }
+    .tmr-button {
+        padding-left: 17%;
+    }
+    .psu-sec ul li {
+        padding-left: 30px;
+    }
+    .psu-sec ul li {
+        padding-bottom: 20px;
+    }
+    .fan-sec1 {
+        padding-left: 30%;
+        padding-bottom: 13px;
+    }
+    .admin-font {
+        font-size: 11px;
+    }
+    .notification {
+        width: 18%;
+    }
+    .left-arrow img {
+        padding-top: 18px;
+    }
+    .right-arrow img {
+        padding-top: 77px;
+    }
+    .right-arrow-music-tune ul li {
+        padding-bottom: 16px;
+    }
+    .bx3-top-iteams ul li {
+        padding-left: 5px;
+    }
+    .bx3-btm-iteams ul li {
+        padding-left: 5px;
+    }
+    .box {
+        height: 570px;
+    }
+    .menubar-box {
+        height: 700px;
+    }
+}

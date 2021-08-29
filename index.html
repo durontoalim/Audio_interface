@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+    <title>Audio-interface</title>
+    
+    <!---Seo-->
+    
+    <meta name="description" content="Audio interface" />
+    
+    <!---Font google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+    <!---Font Awesome-->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
+      
+      <!---Vendor Files-->
+      
+       <link href="vendor/css/normalize.css" type="text/css" rel="stylesheet" />
+       
+    <!---RESOURCES CSS FILES-->
+ 
+    <link href="Resources/css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/responsive.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+  <!--- STRAT HEADER SECTION-->
+    <header id="header">
+       <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active"><img src="Resources/img/Home-interface.jpg" alt="" /></a>
+            <div id="myLinks" class="menubar-list">
+                <ul>
+                    <li> <a href="#"><img src="resources/img/1.png" alt=""/> HOME </a></li>
+                    <li> <a href="#"> <img src="resources/img/2.png" alt=""/> NETWORK </a></li>
+                    <li> <a href="#"><img src="resources/img/3.png" alt=""/> MULTIVIEWER</a></li>
+                    <li> <a href="#"> <img src="resources/img/4.png" alt=""/> AUDIO</a></li>
+                    <li> <a href="#"> <img src="resources/img/5.png" alt=""/> VIDEO</a></li>
+                    <li> <a href="#"> <img src="resources/img/6.png" alt=""/> MADI</a></li>
+                    <li> <a href="#"> <img src="resources/img/7.png" alt=""/> TALLY</a></li>
+                    <li> <a href="#"> <img src="resources/img/8.png" alt=""/> SERIAL</a></li>
+                    <li> <a href="#"> <img src="resources/img/9.png" alt=""/> FIBER</a></li>
+                    <li> <a href="#"> <img src="resources/img/10.png" alt=""/> SETTING</a></li>
+                </ul>
+            </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+       <div class="container">
+            <div class="top-menubar-responsive">
+               <div class="tmr-left-bar-logo">
+                      <div class="tmr-left-bar-logo1">
+                           <img src="Resources/img/Audio-interface2.png" alt="" />
+                       </div>
+                       <div class="tmr-left-bar-logo2">
+                           <img src="Resources/img/Audio-interface3.png" alt="" />
+                       </div>
+                   </div>
+                   <div class="temparature">
+                               <div class="temparature-box">
+                                   <div class="tem-num">
+                                       <span>50<sup>o</sup></span>
+                                   </div>
+                                    <div class="temparature-logo">
+                                        <img src="Resources/img/cock.png" alt="">
+                                    </div>
+                                    <div class="tmp-name">
+                                       <h3>TEMPARATURE</h3>
+                                   </div>
+                               </div>
+                           </div>
+                   <div class="tmr-button">
+                       <button class="tmr-user-btn">USER</button>
+                   </div>
+            </div>
+       </div>
+        <div class="container">
+            <div class="header-section">
+               <!---Header Logo-->
+                <div class="header-logo">
+                    <a href="#"><img src="Resources/img/Home-interface.jpg" alt="" /></a>
+                </div>
+            <!---Top Bar-->
+                <div class="top-bar">
+                   <!---Psu Health Fan Error-->
+                    <div class="psu-sec">
+                        <ul>
+                            <li><a href="#">PSU 1</a></li>
+                            <li><a href="#">PSU 2</a></li>
+                            <li><a href="#">HEALTH</a></li>
+                            <li><a href="#">FAN ERROR</a></li>
+                        </ul>
+                    </div>
+                <!---Fan-->
+                    <div class="fan-sec">
+                        <div class="fan-sec1">
+                            <div class="fan-logo">
+                                <a href="#"><img src="Resources/img/fan.png" alt=""/></a>
+                            </div>
+                            <div class="fan-p">
+                                <a href="#"><span>FAN1</span></a>
+                            </div>
+                        </div>
+                        <div class="fan-sec1">
+                            <div class="fan-logo">
+                                <a href="#"><img src="Resources/img/fan.png" alt=""/></a>
+                            </div>
+                            <div class="fan-p">
+                                <a class="red-absoloute" href="#"><span>FAN2</span></a>
+                            </div>
+                        </div>
+                        <div class="fan-sec1">
+                            <div class="fan-logo">
+                                <a href="#"><img src="Resources/img/fan.png" alt=""/></a>
+                            </div>
+                            <div class="fan-p">
+                                <a href="#"><span>FAN3</span></a>
+                            </div>
+                        </div>
+                        <div class="fan-sec1">
+                            <div class="fan-logo">
+                                <a href="#"><img src="Resources/img/fan.png" alt=""/></a>
+                            </div>
+                            <div class="fan-p">
+                                <a href="#"><span class="red-absoulute">FAN4</span></a>
+                            </div>
+                        </div>
+                    </div>
+                <!--- End Fan-->
+                <!---Notification-->
+                    <div class="notification-admin">
+                       <div class="abslte-notifi">
+                           <span>5</span>
+                       </div>
+                        <div class="notification">
+                            <a href="#"><img src="Resources/img/notification.png" alt=""/></a>
+                        </div>
+                    <!--- End Notification-->
+                    <!---Start Admin Users-->
+                        <div class="admin-user">
+                            <div class="admin-logo">
+                                <a href="#"><img src="Resources/img/man-logo.png" alt="" /></a>
+                            </div>
+                            <div class="admin-p">
+                                <a class="admin-font" href="#"><span>ADMIN/USER</span></a>
+                            </div>
+                        </div>
+                        <!---End Admin Users-->
+                    </div>
+                </div>
+            </div>
+        </div>
+   </header>
+<!--- Second Section-->
+   <section id="left-bar">
+       <div class="container">
+           <div class="row">
+              <!---Helicon Logo-->
+               <div class="left-bar-menu">
+                   <div class="left-bar-logo">
+                      <div class="left-bar-logo1">
+                           <img src="Resources/img/Audio-interface2.png" alt="" />
+                       </div>
+                       <div class="left-bar-logo2">
+                           <img src="Resources/img/Audio-interface3.png" alt="" />
+                       </div>
+                   </div>
+                <!---User Button-->
+                   <div class="button">
+                       <button class="user-btn">USER</button>
+                   </div>
+                <!---Menu bar List-->
+                   <div class="menu-bar">
+                        <ul>
+                            <li> <a href="#"><img src="resources/img/1.png" alt=""/> HOME </a></li>
+                            <li> <a href="#"> <img src="resources/img/2.png" alt=""/> NETWORK </a></li>
+                            <li> <a href="#"><img src="resources/img/3.png" alt=""/> MULTIVIEWER</a></li>
+                            <li> <a href="#"> <img src="resources/img/4.png" alt=""/> AUDIO</a></li>
+                            <li> <a href="#"> <img src="resources/img/5.png" alt=""/> VIDEO</a></li>
+                            <li> <a href="#"> <img src="resources/img/6.png" alt=""/> MADI</a></li>
+                            <li> <a href="#"> <img src="resources/img/7.png" alt=""/> TALLY</a></li>
+                            <li> <a href="#"> <img src="resources/img/8.png" alt=""/> SERIAL</a></li>
+                            <li> <a href="#"> <img src="resources/img/9.png" alt=""/> FIBER</a></li>
+                            <li> <a href="#"> <img src="resources/img/10.png" alt=""/> SETTING</a></li>
+                        </ul>
+                           <!--- Temparature Section-->
+                            <div class="temparature">
+                               <div class="temparature-box">
+                                   <div class="tem-num">
+                                       <span>50<sup>o</sup></span>
+                                   </div>
+                                    <div class="temparature-logo">
+                                        <img src="Resources/img/cock.png" alt="">
+                                    </div>
+                                    <div class="tmp-name">
+                                       <h3>TEMPARATURE</h3>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+            <!---  Under Content In Box-->
+               <div class="menubar-box">
+                    <div class="box">
+                       <!---Analoge Audio-->
+                        <div class="box-two">
+                            <div class="box-two-bg">
+                                <div class="box-two-border">
+                                  <!---Box Music Logo-->
+                                    <div class="bx-two-left-side">
+                                        <div class="music-logo">
+                                           <img src="Resources/img/music.png" alt="" />
+                                        </div>
+                                        <div class="analogue">
+                                            <span>Analogue Audio</span>
+                                        </div>
+                                    </div>
+                                    <div class="bx-two-right-side">
+                                        <div class="bx-two-right-side-top">
+                                            <div class="left-arrow">
+                                                <img src="Resources/img/left-arrow.png" alt="" />
+                                            </div>
+                                            <div class="left-arrow-music-tune">
+                                                <ul>
+                                                    <li>1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4</li>
+                                                    <li>5</li>
+                                                    <li>6</li>
+                                                    <li>7</li>
+                                                    <li>8</li>
+                                                    <li>9</li>
+                                                    <li>10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bx-two-right-side-btm">
+                                            <div class="right-arrow">
+                                                <img src="Resources/img/right-arrow.png" alt="" />
+                                            </div>
+                                            <div class="right-arrow-music-tune">
+                                                <ul>
+                                                    <li>1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4</li>
+                                                    <li>5</li>
+                                                    <li>6</li>
+                                                    <li>7</li>
+                                                    <li>8</li>
+                                                    <li>9</li>
+                                                    <li>10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!---AES-->
+                        <div class="box-3">
+                            <div class="bx3-logo">
+                                <div class="bx3-border">
+                                   <div class="bx3-logo-wrapper">
+                                        <div class="bx3-logo1">
+                                            <img src="Resources/img/AES-logo.png" alt="">
+                                        </div>
+                                        <div class="bx3-logo2">
+                                            <img src="Resources/img/AES-NAME.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="box3-music-wrapper">
+                                       <div class="bx3-top-wrapper">
+                                            <div class="bx3-top-arrow">
+                                               <img src="Resources/img/left-arrow.png" alt="" />
+                                            </div>
+                                            <div class="bx3-top-iteams">
+                                                <ul>
+                                                    <li>1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="bx3-btm-wrapper">
+                                            <div class="bx3-btm-arrow">
+                                               <img src="Resources/img/right-arrow.png" alt="" />
+                                            </div>
+                                            <div class="bx3-btm-iteams">
+                                                <ul>
+                                                    <li>1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+   </section>
+   
+   <!---End Section-->
+   
+   
+    <!--- JS Link  -->
+    
+       
+   
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+   
+   
+    <script src="vendor/js/html5shiv.min.js"></script>
+    <script src="vendor/js/respond.min.js"></script>
+    <script src="vendor/js/selectivizr.min.js"></script>
+    
+    <!---End Js Link-->
+    
+</body>
+</html>
